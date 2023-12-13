@@ -15,7 +15,7 @@ contract Counter {
         }
     }
 
-    function getCount() public view returns (uint256) {
+    function getCount() external view returns (uint256) {
         return count;
     }
 }
