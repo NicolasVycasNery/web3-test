@@ -7,7 +7,7 @@
     "scripts": {
         "test": "hardhat test",
         "compile": "hardhat compile",
-        "deploy": "hardhat run scripts/deploy.js",
+        "deploy": "hardhat run ./scripts/deploy.ts",
         "local": "hardhat node"
     }
 }
